@@ -1,0 +1,23 @@
+# SEC Filings Download Dependencies
+# Required packages for downloading and processing S&P 500 company SEC filings
+
+# Core dependencies for SEC data access
+edgartools>=1.0.0
+
+# Data manipulation and web scraping
+pandas>=1.5.0
+requests>=2.28.0
+
+# HTML parsing (required by pandas for read_html)
+lxml>=4.9.0
+html5lib>=1.1
+
+# Timezone data (fixes Windows timezone issues with edgartools)
+# tzdata>=2023.3;sys_platform=="win32"
+# pytz>=2023.3
+
+# # Additional utilities that may be needed
+# beautifulsoup4>=4.11.0
+
+# # Optional: For better performance with large datasets
+# numpy>=1.24.0
